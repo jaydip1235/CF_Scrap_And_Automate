@@ -1,0 +1,169 @@
+body
+{
+    margin : 0;
+    padding: 0;
+    background-color:#000;
+    font-family:Sans-serif;
+
+}
+  @keyframes fire{
+    60%{
+      text-shadow:0px -4px 8px white,
+    0px -12px 24px rgba(255,200,200,1),
+    0px -24px 48px rgba(255,150,100,1),
+    0px -40px 80px rgba(255,100,100,1),
+    0px -60px 120px rgba(255,50,50,1),
+    0px -84px 168px rgba(255,0,0,1);
+    
+      }
+  }
+  
+  
+  @keyframes colorSpin{
+    to{filter:hue-rotate(360deg)}
+  }
+a
+{
+    position : relative;
+    display : inline-block;
+    padding: 15px 30px;
+    color:#2996f3;
+    text-transform : uppercase;
+    letter-spacing : 4px;
+    font-size:26px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+a:hover{
+
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #21f33d,0 0 40px #21f33d,0 0 80px #21f33d;
+}
+a span
+{
+  position:absolute;
+  display: block;  
+}
+
+section
+{
+    height : 100vh;
+    background-Color : #000;
+}
+h1
+{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color:#ddd;
+    font-size: 6em;
+    font-family: sans-serif;
+
+}
+h1 span
+{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+h2
+{
+    opacity: 0;
+     display: inline-block;
+     animation: animate 1s linear forwards;
+}
+
+video
+{
+    object-fit: cover;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter:blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+
+h2
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 3s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 4s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 2.10s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 2.25s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 2.75s;
+}
+h1 span:nth-child(12)
+{
+    animation-delay: 3.10s;
+}
+h1 span:nth-child(13)
+{
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(14)
+{
+    animation-delay: 4s;
+}
+ h1 span:nth-child(15)
+{
+    animation-delay: 20s;
+} 
+ 
+
+
+

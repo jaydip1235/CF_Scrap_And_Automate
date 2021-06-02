@@ -1,0 +1,2 @@
+#import<ios>
+int n,p;char b[4];main(){for(scanf("%d",&n);n--;b[1]<45?p++:p--)scanf("%s",b);printf("%d",p);}
